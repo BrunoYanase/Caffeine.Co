@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,100;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Caffeine. Co</title>
+</head>
+
+<body>
+  <header class="menu">
+    <div class="container">
+      <a href="#" class="menu-logo"><img src="img/logo-white.png" alt="Logo da empresa"></a>
+
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="intro">
+    <h1>Cafés de altíssima qualidade</h1>
+    <p>Direto das fazendas de Minas Gerais e São Paulo</p>
+  </main>
+
+  <section class="sobre" id="sobre">
+    <h2>Uma Mistura de</h2>
+    <div class="container">
+      <div class="sobre-item">
+        <img src="img/cafe-1.jpg">
+        <h3>perfeição</h3>
+      </div>
+      <div class="sobre-item">
+        <img src="img/cafe-2.jpg">
+        <h3>excelência</h3>
+      </div>
+    </div>
+    <p>O café é essencial no dia a dia da maioria das pessoas, seja para começar a manhã,
+      para encerrar uma refeição primorosa, para uma pausa durante a tarde ou acompanhar um bate-papo.
+    </p>
+    <p>
+      Pensamos no café como uma experiencia completa: <b>desde a origem e escolha dos grãos, processo de torra de alta tecnologia, até a xícara perfeita</b>.
+    </p>
+  </section>
+
+  <section class="produtos" id="produtos">
+    <h2>Sobre nosso metodos de preparo</h2>
+    <div class="container">
+      <div class="produtos-item">
+        <div class="card blue">
+          <img class="image" src="img/espresso.png" alt="" />
+          <h3>Espresso</h3>
+          <a class="produtos-btn openEspresso" href="#produtos">Saiba mais</a>
+        </div>
+      </div>
+      <div class="produtos-item">
+        <div class="card green">
+          <img class="image" src="img/moka.png" alt="" />
+          <h3>Moka</h3>
+          <a class="produtos-btn openMoka" href="#produtos">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="produtos-item">
+        <div class="card red">
+          <img class="image" src="img/cappuccino.png" alt="" />
+          <h3>Cappuccino</h3>
+          <a class="produtos-btn openCappuccino" href="#produtos">Saiba mais</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="locais">
+    <div class="locais-item container">
+      <div class="locais-img">
+        <img src="img/loja-1.jpg" alt="Brafé unidade Iguatemi">
+      </div>
+      <div class="locais-info">
+        <h2>Bom Retiro</h2>
+        <p>A lojas mais charmosa de São Paulo, com um vasto espaço verde para se sentir mais a vontade</p>
+        <a href="#">Ver Mapa</a>
+      </div>
+    </div>
+    <div class="locais-item container">
+      <div class="locais-img">
+        <img src="img/loja-2.jpg" alt="Brafé unidade Iguatemi">
+      </div>
+      <div class="locais-info">
+        <h2>Moema</h2>
+        <p>A loja com um dos melhores espaço para um coworking em São Paulo</p>
+        <a href="#">Ver Mapa</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Caffeine. Co © 2021. Alguns direitos reservados</p>
+      <div class="footer-img">
+        <img src="img/logo-white.png" alt="Logo da empresa">
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-container modal-container-espresso">
+    <div class="modal espresso">
+      <button class="btn-close closeEspresso">X</button>
+      <h2>Espresso</h2>
+      <p>Na maquina de espresso, água sob pressão passa pelo café e extrai os componetes solúveis desejados. Quando uasdo de forma correta, produz uma bebida curta e espessa - uma dose intensa e equilibrada entre doce e o ácido.</p>
+    </div>
+  </div>
+
+  <div class="modal-container modal-container-moka">
+    <div class="modal moka">
+      <button class="btn-close closeMoka">X</button>
+      <h2>Moka</h2>
+      <p>A moka, também chamada de cafeteira italiana ou fogão, funciona com pressão a vapor, o que confere uma textura sedosa ao café. Apesar do que se diz, ele não foi projetafa para fazer expresso, mas devido á alta temperatura proporciona um café com sabor intenso.</p>
+    </div>
+  </div>
+
+  <div class="modal-container modal-container-cappuccino">
+    <div class="modal cappuccino">
+      <button class="btn-close closeCappuccino">X</button>
+      <h2>Cappuccino</h2>
+      <p>Os italianos costumam beber o cappuccino de manhã, mas no mundo todo essa bebida classica hoje é uma opção para qualquer momento do dia. Muitos consideram que o cappuccino representa a proporção mais harmoniosa de café e leite.</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -15,6 +15,6 @@
 
 O **Caffeine. Co** é uma landing page com algumas informações da empresa, ultilizando HTML, CSS e Javascript
 
-- Endereço da aplicação
+# Endereço da aplicação
 
 * [https://caffeine-co.netlify.app/](https://caffeine-co.netlify.app/)

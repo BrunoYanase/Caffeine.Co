@@ -2,7 +2,7 @@
 
 ## Dados da Turma
 
-- Dia da semana: **Terça-Feira ** e **Quarta-Feira**
+- Dia da semana: **Terça-Feira** e **Quarta-Feira**
 - Período: **Noturno**
 
 ## Integrante
